@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "todo-server": {
+      "command": "python",
+      "args": ["run_mcp_server.py"],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
